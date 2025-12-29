@@ -1,0 +1,10 @@
+------------1--------------------------
+git config --global user.name "Harsh"
+git config --global user.email "harshkk@gamail.com"
+mkdir gitlab1
+cd gitlab1
+touch pgm.txt
+git init
+git add .
+git commit -m "initialised"
+git log
