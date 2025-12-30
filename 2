@@ -2,13 +2,12 @@ git config --global user.name "Harsh"
 git config --global user.email "harsh@gmail.com"
 mkdir git2
 cd git2
+touch pgm2.txt
 git init
-git branch feature-branch
-git branch
-git checkout feature-branch
-touch file.txt
 git add .
-git commit -m "Add feature in Feature branch"
-git checkout master
+git checkout -b "feature-branch"
+git commit -m "COM1"
+git checkout -b "master"
 git merge feature-branch
-git log
+git log 
+
