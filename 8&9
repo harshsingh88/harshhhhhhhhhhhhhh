@@ -1,0 +1,18 @@
+mkdir git8
+cd git8
+git init
+touch pgm8.txt
+git add .
+git commit -m "COM1"
+git checkout -b "source-branch"
+git add .
+git commit -m "COM2"
+git add .
+git commit -m "COM3"
+git log --online
+git checkout master
+git cherry-pick @@@@@^..@@@@
+9999999999999
+git show @@@@@
+git log -n1 @@@@@@@
+
